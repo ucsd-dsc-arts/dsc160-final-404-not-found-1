@@ -1,4 +1,4 @@
-# Project Title
+# Reconstruct Gender-Neutral Superheros in Frida Kahlo's Narrative 
 
 DSC160 Data Science and the Arts - Final Project - Generative Arts - Spring 2020
 
@@ -24,6 +24,12 @@ For the project proposal, please write a short abstact addressing the questions 
 - How are you expanding on topics we have covered in class? 
 - Why is it interesting? (personally, culturally, politically, other)
 - List three papers / art projects that are references for this work.
+
+In this art project, we aim to recreate faces of superheroes in Frida Kahlo's portraits. Technically, we will recreate superhero faces using Deep Convolutional Generative Adversarial Network and then use CycleGAN to transfer the faces to a Frida Kahlo style. We plan to use web scraping to collect both superheros from both Marvel and D.C. universe and Frida Kalho's portraits. If things go as we plan, we will create gender-neutral style superheros and present them sequentially in a video in which we showed how they are created. Possible chanllenges might arise in creating visually pleasant, high resolution portraits since we are new to this area and have no actual experience in applying what we learned in real world problems. 
+To expand on the scope of classroom topics, we recreate faces of humans instead animals and combine the techniques of DCGAN with CycleGAN and refine the feminine qualities mathematically. We are interested in this topic primarily because we noticed that superheros movies were subconsciously promoting toxic masculinity and the under-representation of feminine qualities; Frida Kahlo was an artist who was famous for exploring sexuality, gender and Politics in her paintings. We want to combine the masculinity within superheros pictures with the fluidity of gender in Kahlo' paintings to create gender-neutral superheros. 
+ - https://towardsdatascience.com/face-generator-generating-artificial-faces-with-machine-learning-9e8c3d6c1ead
+ - https://brokenwallsandnarratives.wordpress.com/2017/05/18/exploring-frida-the-sexuality-gender-and-politics-of-frida-kahlo/
+ - https://www.nature.com/articles/s42003-019-0438-y
 
 ## Data and Model
 
