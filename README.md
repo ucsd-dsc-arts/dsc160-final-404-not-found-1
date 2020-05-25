@@ -29,7 +29,7 @@ In this art project, we aim to recreate faces of superheroes in Frida Kahlo's po
 To expand on the scope of classroom topics, we recreate faces of humans instead animals and combine the techniques of DCGAN with CycleGAN and refine the feminine qualities mathematically. We are interested in this topic primarily because we noticed that superheros movies were subconsciously promoting toxic masculinity and the under-representation of feminine qualities; Frida Kahlo was an artist who was famous for exploring sexuality, gender and Politics in her paintings. We want to combine the masculinity within superheros pictures with the fluidity of gender in Kahlo' paintings to create gender-neutral superheros. 
  - https://towardsdatascience.com/face-generator-generating-artificial-faces-with-machine-learning-9e8c3d6c1ead
  - https://brokenwallsandnarratives.wordpress.com/2017/05/18/exploring-frida-the-sexuality-gender-and-politics-of-frida-kahlo/
- - https://www.nature.com/articles/s42003-019-0438-y
+ - https://junyanz.github.io/CycleGAN/
 
 ## Data and Model
 
