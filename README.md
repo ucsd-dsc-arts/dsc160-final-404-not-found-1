@@ -11,25 +11,18 @@ Project Team Members:
 
 ## Abstract
 
-(10 points) 
 
-For the project proposal, please write a short abstact addressing the questions below. You need to replace the entire contents of this section with one to two paragraphs addressing the following:
+Pop culture is filled with symbolic representations. One of the most significant and powerful representations is the imagery of superheroes. If you dissect the notion of prevalent superheroes, it is not difficult to notice that most of them are white males with extreme gender characteristics, such as masculinity. This single-handed over-representation brings us to the topic of this art project. To reconstruct the gender characteristics of superheroes and diversify them, in this art project, we aim to recreate faces of superheroes in Frida Kahlo's perspective, who was an artist famous for exploring sexuality, gender and Politics in her paintings. 
+To collect data, we decided to use web scraping to collect superheros of both Marvel and D.C. universes from https://www.superherodb.com/characters/ and Frida Kalho's portraits from https://www.frida-kahlo-foundation.org/. Firstly, we will use the marvel heroes datasets as our training data to recreate new superhero faces using Deep Convolutional Generative Adversarial Network with PyTorch. After finishing recreating new faces, we will use CycleGAN to transfer superheroes faces in a Frida Kahlo style, by which we aim to emphasize femininity and lessen the masculinity.If things go as we plan, we will create gender-neutral style superheros and present them sequentially in a video in which we showed how they are created. 
+Possible challenges might arise in creating visually pleasant, high resolution portraits since we are new to this area and have no actual experience in applying what we learned in real world problems. Other challenges might include the detailed criteria of femininity. To expand on the scope of classroom topics, we recreate faces of humans instead of animals and combine the techniques of DCGAN with CycleGAN and refine the feminine qualities mathematically. 
+We are interested in this topic primarily because we noticed that superheros movies were subconsciously promoting toxic masculinity and the under-representation of feminine qualities. Judith Butler once said gender was socially constructed. To rephrase her saying, sex is a biological characteristic, while gender is socially constructed. In this art project, we aim to reconstruct the gender notions of superheroes. We want to redefine the faces of superheros through combining the masculinity within old superheros with the fluidity of gender in Kahlo' paintings to create gender-neutral superheros. 
 
-- What is your concept for a generative art project? 
-- What methods/networks/techniques will you employ (include links to technical precedents/code bases)
-- What training data (if any) will you use for your project? 
-- What kind of results do you hope that your system will produce?
-- How will you present your result/what form will your output take?
-- What if any challenges to you think may arise as you are working with this?
-- How are you expanding on topics we have covered in class? 
-- Why is it interesting? (personally, culturally, politically, other)
-- List three papers / art projects that are references for this work.
 
-In this art project, we aim to recreate faces of superheroes in Frida Kahlo's portraits. Technically, we will recreate superhero faces using Deep Convolutional Generative Adversarial Network and then use CycleGAN to transfer the faces to a Frida Kahlo style. We plan to use web scraping to collect both superheros from both Marvel and D.C. universe and Frida Kalho's portraits. If things go as we plan, we will create gender-neutral style superheros and present them sequentially in a video in which we showed how they are created. Possible chanllenges might arise in creating visually pleasant, high resolution portraits since we are new to this area and have no actual experience in applying what we learned in real world problems. 
-To expand on the scope of classroom topics, we recreate faces of humans instead animals and combine the techniques of DCGAN with CycleGAN and refine the feminine qualities mathematically. We are interested in this topic primarily because we noticed that superheros movies were subconsciously promoting toxic masculinity and the under-representation of feminine qualities; Frida Kahlo was an artist who was famous for exploring sexuality, gender and Politics in her paintings. We want to combine the masculinity within superheros pictures with the fluidity of gender in Kahlo' paintings to create gender-neutral superheros. 
  - https://towardsdatascience.com/face-generator-generating-artificial-faces-with-machine-learning-9e8c3d6c1ead
  - https://brokenwallsandnarratives.wordpress.com/2017/05/18/exploring-frida-the-sexuality-gender-and-politics-of-frida-kahlo/
  - https://junyanz.github.io/CycleGAN/
+ - Butler, Judith. “Performative Acts and Gender Constitution: An Essay in Phenomenology and Feminist Theory.” Theatre Journal, vol. 40, no. 4, 1988, pp. 519–531. JSTOR, www.jstor.org/stable/3207893. Accessed 26 May 2020.
+
 
 ## Data and Model
 
