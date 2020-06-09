@@ -44,17 +44,12 @@ We collected superheroes from those website by hand.
 ## Code
 
 (20 points)
-
-This section will link to the various code for your project (stored within this repository). Your code should be executable on datahub, should we choose to replicate your result. This includes code for: 
-
 - Data Acquisition/ Scraping
   * [Scraping](/code/scrape_frida_arts.ipynb): This is the code we used for scraping Frida's artworks from Wiki-art.
-- code for preprocessing
-- training code (if appropriate)
-
-- generative methods
-
-Link each of these items to your .ipynb or .py files within this seection, and provide a brief explanation of what the code does. Reading this section we should have a sense of how to run your code.
+- code for preprocessing （我们没有，需要这个part吗？）
+- training code / generative methods
+  * [DCGAN](/Final_Project_Group_404-not-found.ipynb): This is the code we used to train the DCGAN model, from this code, we generated new superheroes based on our input DC and Marvel datasets.
+  * [Style transfer](/style_transfer_keras.ipynb): We used this style transfer to combine the style of Frida Kahlo into the new-generated superheroes from DCGAN.
 
 ## Results
 
