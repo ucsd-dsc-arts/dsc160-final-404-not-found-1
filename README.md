@@ -27,12 +27,19 @@ We are interested in this topic primarily because we noticed that superheros mov
 ## Data and Model
 
 (10 points) 
-
-In the final submission, this section will describe both the data you use for this project and any pre-existing models/neural nets. For each you should provide the name, a textual description, and a link. If there is a paper (for neural net) link that as well.
-- Such and such Neural Net. The short description of this neural net. 
-  - [link to code]().
-  - [Title of Paper with Link](). 
-- Training data. Short description of training data including bibliographic info. [link to data]().
+- These are the example code and pre-existing models that we used. 
+  - [DCGAN](https://github.com/roberttwomey/ml-art-code/blob/master/week8/DCGAN_Pytorch/dcgan_train.ipynb).
+  This pre-existing DCGAN (Deep Convolution Generative Adversarial Networks) model is based on Pytorch. As [this paper](https://arxiv.org/abs/1511.06434) indicates, DCGAN is an unsupervised learning model that could work perfectly on learning a hierarchy of representations from object parts to scenes in both the generator and discriminator. 
+  - [Style Transfer](https://github.com/roberttwomey/dsc160-code/blob/master/examples/style_transfer_tensorflow/style_transfer_keras.ipynb). 
+  When transfering superheroes into the style of Frida's works, we refer to this code example. This transformer is based on tensorflow and the benefit of this model is its feedforward attribute -- train a network to do the stylizations for a given painting beforehand so that it can produce stylized images instantly.
+- Training data. Our Data are collected in different websites.
+  - [Marvel Superheroes Dataset](https://www.marvel.com/characters): This website contains 2587 images from Marvel world.
+  - [DC Superheroes Dataset](https://www.dccomics.com/characters): This website contains 191 images from DC world.
+  - [Kaggle Superheroes Dataset](https://www.kaggle.com/vibster2397/superheroes). This website contains 2045 images from Marvel world. <br/>
+We collected superheroes from those website by hand.
+  - [Frida Kahlo Dataset](https://www.wikiart.org/en/frida-kahlo): This website contains 99 paintings by Frida Kahlo.<br/>
+  We scrape wikiart page to get the artworks from Frida Kahlo, a Mexican painter famous for her depiction on neutral-gender style self-portraits.
+  
 
 ## Code
 
