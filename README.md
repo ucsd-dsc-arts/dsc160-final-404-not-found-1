@@ -48,6 +48,7 @@ We collected superheroes from those website by hand.
 This section will link to the various code for your project (stored within this repository). Your code should be executable on datahub, should we choose to replicate your result. This includes code for: 
 
 - code for data acquisition/scraping
+* [Scraping](/code/scrape_frida_arts.ipynb): This is the code we used for scraping Frida's artworks from Wiki-art.
 - code for preprocessing
 - training code (if appropriate)
 - generative methods
