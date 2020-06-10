@@ -70,7 +70,7 @@ These are the generated superheros from the 500 epochs we generated using DCGAN:
 ![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/WeChat%20Image_2020060704331570.png)
 ![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/WeChat%20Image_2020060704331540.png)
 ![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/WeChat%20Image_2020060704331559.png)                                                             
-This is result from the 451th epoch in DCGAN process, which contains some human faces:
+This is one of the result from the 451th epoch in DCGAN process, which contains some human faces:
 ![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/500EPOCHs/fake_samples_epoch_451.png)
 
 
