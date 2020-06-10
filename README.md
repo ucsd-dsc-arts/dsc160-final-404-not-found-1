@@ -46,7 +46,8 @@ We collected superheroes from those website by hand.
 (20 points)
 - Data Acquisition/ Scraping
   * [Scraping](/code/scrape_frida_arts.ipynb): This is the code we used for scraping Frida's artworks from Wiki-art.
-- code for preprocessing （我们没有，需要这个part吗？）
+- code for preprocessing
+  * [DCGAN](/Final_Project_Group_404-not-found.ipynb): We preprocessed import data through the libray of torchvision.datasets. All imported image is scaled and normalized for applying pytorch algorithm.
 - training code / generative methods
   * [DCGAN](/Final_Project_Group_404-not-found.ipynb): This is the code we used to train the DCGAN model, from this code, we generated new superheroes based on our input DC and Marvel datasets.
   * [Style transfer](/style_transfer_keras.ipynb): We used this style transfer to combine the style of Frida Kahlo into the new-generated superheroes from DCGAN.
@@ -77,17 +78,29 @@ The subsequent paragraphs could address questions including:
 ## Team Roles
 
 Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
+- Weihua Zhao:
+- Tianran Qiu:
+- Zishun Jin:
+- Yijun Liu:
+- Da Gong: Da Gong is in charge of using DCGAN provided by PyTorch to generate new superhero images. Before deciding which algorithm is using for this project, he is responsible for discovering all possible ways and estimates every way's time costs and complex cost. Overall, he is constantly sharing ideas with other teammates and make decisions for this project with other teammates.
+
 
 ## Technical Notes and Dependencies
 
 Any implementation details or notes we need to repeat your work. 
 - Additional libraries you are using for this project
+None. All libraries are listed in all notebooks.
 - Does this code require other pip packages, software, etc?
+We used only latest version of pytorch, tensorflow and scipy.
 - Does this code need to run on some other (non-datahub) platform? (CoLab, etc.)
+None. Due to the relatively small calculation need, any platform with individual GPU can run all notebooks.
+
 
 ## Reference
 
 All references to papers, techniques, previous work, repositories you used should be collected at the bottom:
-- Papers
-- Repositories
-- Blog posts
+- Alec Radford, et al. “Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks.” ArXiv.org, Cornell University, 7 Jan. 2016, arxiv.org/abs/1511.06434.
+- Pytorch. “Pytorch/Examples.” GitHub, 21 May 2020, github.com/pytorch/examples/tree/master/dcgan.
+- Professor Robert Twomey, "dsc160-code/Style_Transfer", https://github.com/roberttwomey/dsc160-code/tree/master/examples/style_transfer_tensorflow
+- Professor Robert Twomey, "ml-art-code/DCGAN_Pytorch", https://github.com/roberttwomey/ml-art-code/tree/master/week8/DCGAN_Pytorch
+
