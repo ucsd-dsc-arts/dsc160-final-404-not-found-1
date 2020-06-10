@@ -70,6 +70,7 @@ This section should summarize your results and will embed links to documentation
 ![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/WeChat%20Image_2020060704331535.png)
 ![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/WeChat%20Image_202006070433155.png)
 ![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/WeChat%20Image_2020060704331570.png)
+![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/WeChat%20Image_2020060704331540.png)
 
 - image files (`.jpg`, `.png` or whatever else is appropriate)
 - audio files (`.wav`, `.mp3`)
