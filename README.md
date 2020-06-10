@@ -55,8 +55,7 @@ We collected superheroes from those website by hand.
 ## Results
 
 (30 points) 
-http://img.youtube.com/vi/{o9a6aOox2I0}/0.jpg
-
+[![Audi R8](http://img.youtube.com/vi/o9a6aOox2I0/0.jpg)](https://www.youtube.com/watch?v=o9a6aOox2I0 "Audi R8")
 https://youtu.be/o9a6aOox2I0
 This section should summarize your results and will embed links to documentation to significant outputs. This should document both process and show artistic results. This can include figures, sound files, videos, bitmaps, as appropriate to your generative art idea. Each result should include a brief textual description, and all should be listed below: 
 
