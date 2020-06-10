@@ -54,7 +54,8 @@ We collected superheroes from those website by hand.
 
 ## Results
 We compiled the samples of 500 epochs results into one video. In the video, we can see that the generated result improves over the time. However, about one minute into the video, we can see that there are lots of duplicated resulting images. In order to have satisfying results from DCGAN, we acquire a database much larger than 3000 images. However, our database is limited as the number of heroes in comics are limited. To achieve better results, we duplicated the data base three times. It could be the reason that we have similar resulting images. Among the resulting faces we got, there are many faces that are recognizable and gender neutral. This result on the top right is like an alien version of Valkyrie. However, it also contains masculinity. This is clearly a strong gender-neutral superheroes.
-We also used a method called styler transfer. Here is the result after using style transfer. The resulting images of gender neutral heroes are more recognizable comparing to results from DCGAN. However, the resulting image shares great similarity with the original images. It is more like apply frida image as a filter on top of the hero images. We do not really see the application of gender neutral process in the resulting images. 
+We also have the resultafter using style transfer. The resulting images of gender neutral heroes are more recognizable comparing to results from DCGAN. However, the resulting image shares great similarity with the original images. It is more like apply frida image as a filter on top of the hero images. We do not really see the application of gender neutral process in the resulting images. 
+
 We compiled the generated 500 pictures of epochs into a video and the foloowing video is the result:
 [![500 EPOCHS RESULT](http://img.youtube.com/vi/o9a6aOox2I0/0.jpg)](https://www.youtube.com/watch?v=o9a6aOox2I0 "500 EPOCHS RESULT")
 
@@ -69,14 +70,10 @@ These are the generated superheros from the 500 epochs we generated using DCGAN:
 ![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/WeChat%20Image_202006070433155.png)
 ![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/WeChat%20Image_2020060704331570.png)
 ![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/WeChat%20Image_2020060704331540.png)
-![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/WeChat%20Image_2020060704331559.png)                                                             
+![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/WeChat%20Image_2020060704331559.png)     
+
 This is one of the result from the 451th epoch in DCGAN process, which contains some human faces:
 ![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/500EPOCHs/fake_samples_epoch_451.png)
-
-
-- image files (`.jpg`, `.png` or whatever else is appropriate)
-- audio files (`.wav`, `.mp3`)
-- written text as `.pdf`
 
 ## Discussion
 
@@ -96,7 +93,7 @@ The subsequent paragraphs could address questions including:
 Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
 - Weihua Zhao:
 - Tianran Qiu:
-- Zishun Jin:
+- Zishun Jin: I am in charge of tuning and cleaning the data we used to train the DCGAN model and I used DCGAN to generate the epoch pictures too. I also went trhough all the pictures generated and picked out the regognizable and iconic pictures in the end.
 - Yijun Liu:
 - Da Gong: Da Gong is in charge of using DCGAN provided by PyTorch to generate new superhero images. Before deciding which algorithm is using for this project, he is responsible for discovering all possible ways and estimates every way's time costs and complex cost. Overall, he is constantly sharing ideas with other teammates and make decisions for this project with other teammates.
 
