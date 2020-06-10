@@ -95,7 +95,7 @@ Provide an account of individual members and their efforts/contributions to the 
 - Weihua Zhao:
 - Tianran Qiu: I am in charge of compling result and training style transfer model. I also tried training the DCGAN model. I used python to compile the result of 500 epochs into a large gif to show the transformation process. I am also in charge of the result secton in this file.
 - Zishun Jin: I am in charge of tuning and cleaning the data we used to train the DCGAN model and I used DCGAN to generate the epoch pictures too. I also went trhough all the pictures generated and picked out the regognizable and iconic pictures in the end.
-- Yijun Liu:
+- Yijun Liu: I am in charge of scraping arts of Frida Kahlo from Wiki-arts and tried other models like StyleGAN before finally diciding changing to DCGAN model. Also, I cleaned images by resizing them so that they could fit well into the model we used. 
 - Da Gong: Da Gong is in charge of using DCGAN provided by PyTorch to generate new superhero images. Before deciding which algorithm is using for this project, he is responsible for discovering all possible ways and estimates every way's time costs and complex cost. Overall, he is constantly sharing ideas with other teammates and make decisions for this project with other teammates.
 
 
