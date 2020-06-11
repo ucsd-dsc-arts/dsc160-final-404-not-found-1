@@ -76,23 +76,21 @@ These are the generated superheros from the 500 epochs we generated using DCGAN:
 This is one of the result from the 451th epoch in DCGAN process, which contains some human faces:
 ![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/500EPOCHs/fake_samples_epoch_451.png)
 
+
 ## Discussion
 
-(30 points, three to five paragraphs)
+We attempted to recreate new superheroes with our own datasets of superheroes in which male and female superheroes maintain an approximate equal ratio of male and female. In the new images, the images are not very clear; but the generated superheroes’ gender characteristics are weakened, yet they still showed some kind of physical sex characteristics such as really strong jaw lines, one of the representations of masculinity. After style transferring them, we saw that their masculinity was slightly weakened, but overall there were no big changes in regards to strong physical characteristics.
 
-The first paragraph should be a short summary describing your results.
+Our attempt to recreate new superheroes are based on our observation of the over-represented toxic masculinity and an unbalanced gender representation and our aspiration to change this current situation. Our datasets include almost all kinds of superheroes ever created in these two major comic companies and an overall more balanced gender ratio, which makes our dataset comparatively diverse. Then we style-transferred them with Frida Kahlo’ paintings. We chose her because her paintings are famous for their gender fluidity and discovery of sexualities; also, they reflect Kahlo’s inner world that constantly encompasses her own battle with her accidents, heartbreak with her loved one, and her mental illness; the gender fluidity and fragility, we believed can weaken the strong masculinity in the current super heroes representations. Our computational approach is based on the understanding of machine learning models, which are different from traditional artistic production methods since they are usually created by humans. Our attempts of recreating new superheroes from a diverse superheroes pool are inspired by the Feminism movement and Black Lives Matter movement since both of them call for social justice that is based on aspiration for more equality and less bias, which was represented as a form of over representation of one single social group, white males especially, and under representation of other social groups. 
 
-The subsequent paragraphs could address questions including:
-- Why is this culturally innovative?
-- How does your generative computational approach differ from traditional art/music/cultural production? 
-- How do your results relate to broader social, cultural, economic political, etc., issues? 
-- What are the ethical concerns for this form of generative art? 
-- In what future directions could you expand this work?
+Since our generated images do not have high resolution and clear faces, our future directions can be adopting a new model, such as styleGAN, just as Professor Twomey himself suggested, and conduct latent search using Frida Kahlo’s paintings instead of simple style-transferring them, since latent search can better apply the characteristics of images to others. 
+
+
 
 ## Team Roles
 
 Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
-- Weihua Zhao:
+- Weihua Zhao: I am in charge of conducting research on the topic, generating methods and ideas, attempting to use train image generating images, style-transferring generated images, made videos and presentations.
 - Tianran Qiu: I am in charge of compling result and training style transfer model. I also tried training the DCGAN model. I used python to compile the result of 500 epochs into a large gif to show the transformation process. I am also in charge of the result secton in this file.
 - Zishun Jin: I am in charge of tuning and cleaning the data we used to train the DCGAN model and I used DCGAN to generate the epoch pictures too. I also went trhough all the pictures generated and picked out the regognizable and iconic pictures in the end.
 - Yijun Liu: I am in charge of scraping arts of Frida Kahlo from Wiki-arts and tried other models like StyleGAN before finally diciding changing to DCGAN model. Also, I cleaned images by resizing them so that they could fit well into the model we used. 
