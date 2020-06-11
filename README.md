@@ -76,6 +76,17 @@ These are the generated superheros from the 500 epochs we generated using DCGAN:
 This is one of the result from the 451th epoch in DCGAN process, which contains some human faces:
 ![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/500EPOCHs/fake_samples_epoch_451.png)
 
+These are the style-transferred results:
+
+![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/hero1.png)
+![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/self-portrait-with-necklace-of-thorns-1940.jpg)
+![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/transfered2__at_iteration_9.png)
+![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/hero3.png)
+![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/the-broken-column-1944.jpg)
+![alt text](https://github.com/ucsd-dsc-arts/dsc160-final-404-not-found-1/blob/master/results/results/transfered__at_iteration_9.png)
+
+
+
 
 ## Discussion
 
